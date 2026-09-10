@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_ink">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/splash_caption"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_sensor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_splash_fade" />
+
+    <LinearLayout
+        android:id="@+id/splashBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:paddingBottom="56dp">
+
+        <View
+            android:id="@+id/splashRule"
+            android:layout_width="36dp"
+            android:layout_height="2dp"
+            android:background="@color/splash_accent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:letterSpacing="0.08"
+            android:text="@string/app_name"
+            android:textColor="@color/splash_title"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:letterSpacing="0.16"
+            android:text="@string/app_tagline"
+            android:textAllCaps="true"
+            android:textColor="@color/splash_accent"
+            android:textSize="11sp" />
+    </LinearLayout>
+</FrameLayout>

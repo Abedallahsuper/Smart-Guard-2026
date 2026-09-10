@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/mint</item>
+        <item name="android:statusBarColor">@color/bg_deep</item>
+        <item name="android:navigationBarColor">@color/bg_deep</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="colorControlActivated">@color/cyan</item>
+    </style>
+</resources>
